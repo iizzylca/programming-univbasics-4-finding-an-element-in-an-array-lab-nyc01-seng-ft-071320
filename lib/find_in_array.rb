@@ -2,7 +2,7 @@ require 'pry'
 
 def find_element_index(array, value_to_find)
   count = 0
-  while array.include?(value_to_find) do
+  while count < array.length do
     true
     count += 1
   end
