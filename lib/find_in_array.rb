@@ -3,7 +3,7 @@ require 'pry'
 def find_element_index(array, value_to_find)
   count = 0
   binding.pry
-  while array.include? 0 do
+  while array.include?(value_to_find) do
     true
     count += 1
   end
