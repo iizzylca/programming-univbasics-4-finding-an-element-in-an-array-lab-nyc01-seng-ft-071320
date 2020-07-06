@@ -4,7 +4,7 @@ def find_element_index(array, value_to_find)
   count = 0
   while array == 0 do
     value_to_find
-    pry
+    binding.pry
     count += 1
   end
   find_element_index
